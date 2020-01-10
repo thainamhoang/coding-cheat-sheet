@@ -5,7 +5,7 @@ The two ways of solving the Sudoku can be used are [*Backtracking*](https://www.
 
 ## Backtracking
 
-#### Java
+### Java
 ```java
 public M1_Backtracking_Sudoku(int[][] board) {
     this.board = new int[SIZE][SIZE];
@@ -75,7 +75,7 @@ public static boolean solved() {
 }
 ```
 
-#### Python
+### Python
 ```python
 SIZE = 9
 EMPTY_CELL = 0
@@ -122,10 +122,10 @@ def sudoku_solved(board):
 
 ## Dancing Links
 
-#### Java
+### Java
 ```java
 ```
 
-#### Python
+### Python
 ````python
 ````

@@ -1,7 +1,7 @@
 # Triplet Sum
 Give an array of elements. Find triplets in array whose sum is a number
 
-#### Java
+### Java
 ```java
 public static void tripletSum(int[] arr, int arrLength, int sum) {
     boolean isFound = false;
@@ -20,7 +20,7 @@ public static void tripletSum(int[] arr, int arrLength, int sum) {
 }
 ```
 
-#### Python
+### Python
 ```python
     def tripletSum(arr, arrLength, sum):
         isFound = False
