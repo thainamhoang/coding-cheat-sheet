@@ -1,7 +1,7 @@
 # Generate Binary Strings
 Given a string contains '0', '1', and '?' (a wildcard character). Generate all binary strings that can be formed by replacing '?' as '0' or '1'.
 
-#### Java
+### Java
 ```java
 public static void replacing (char[] charArr, int i) {
 		if (i == charArr.length) {
@@ -26,7 +26,7 @@ public static void replacing (char[] charArr, int i) {
 	}
 ```
 
-#### Python
+### Python
 ```python
 def replacing (string):
     if "?" not in string:

@@ -4,7 +4,7 @@ Recursion is a method which can call itself. [Here](https://www.youtube.com/watc
 ## Factorial
 Factorial is a great basic example of how to use recursion
 
-#### Java
+### Java
 ```java
 public static long factorial (long n) {
     if (n <=1 ) {
@@ -14,7 +14,7 @@ public static long factorial (long n) {
 }
 ```
 
-#### Python
+### Python
 ```python
 def factorial(n):
     if n <= 1:
@@ -25,7 +25,7 @@ def factorial(n):
 ## Memoization
 Memoization is often used in recursion, especially with expensive values. The results of a method are stored so that they can be used later when called. 
 
-#### Java
+### Java
 ```java
 private static long[] fibonacciArray = new long[26];
 public static long factorialMemo(long n) {
@@ -44,7 +44,7 @@ public static long factorialMemo(long n) {
 }
 ```
 
-#### Python
+### Python
 ```python
 factorial_memo_array = {}
 
@@ -59,7 +59,7 @@ def factorial_memo(n):
 ## Tail Recursion
 Tail recursion is a recursion in which recursive call is the last thing executted by the method. Some programming languages, usually functional ones, optimize tail calls so they take up less room on the call stack. 
 
-#### Java
+### Java
 ```java
 public static long factorialTailRecur (long n, long a) {
     if (n == 0) {
@@ -73,7 +73,7 @@ public static long factorial(long n) {
 }
 ```
 
-#### Python
+### Python
 ```python
 def factorial_tail_recur(n, running_total = 1):
     if n <= 1:
