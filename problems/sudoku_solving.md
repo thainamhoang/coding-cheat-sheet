@@ -7,7 +7,7 @@ The two ways of solving the Sudoku can be used are [*Backtracking*](https://www.
 
 ### Java
 ```java
-public M1_Backtracking_Sudoku(int[][] board) {
+public Sudoku(int[][] board) {
     this.board = new int[SIZE][SIZE];
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
