@@ -1,4 +1,5 @@
 # Generate Binary Strings
+
 Given a string contains '0', '1', and '?' (a wildcard character). Generate all binary strings that can be formed by replacing '?' as '0' or '1'.
 
 ### Java

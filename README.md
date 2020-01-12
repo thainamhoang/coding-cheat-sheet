@@ -1,6 +1,9 @@
 # Coding Cheat Sheets
 Simple, quick cheat sheets that cover some computer science concepts. Code covers in Java and Python (will update more!).
 
+## Algorithms
+* [Divide and Conquer](/algorithms/divide_and_conquer.md)
+
 ## Basics
 * [Big-O Notation](/basics/big_o_notation.md)
 * [Recursion](/basics/recursion.md)

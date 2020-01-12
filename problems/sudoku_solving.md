@@ -1,4 +1,5 @@
 # Sudoku Solving
+
 [Sudoku](https://en.wikipedia.org/wiki/Sudoku) is a number-placement puzzle game. The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids (box) that compose the grid contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution. 
 
 The two ways of solving the Sudoku can be used are [*Backtracking*](https://www.geeksforgeeks.org/backtracking-algorithms/) and [*Dancing Links*](https://www.geeksforgeeks.org/exact-cover-problem-algorithm-x-set-2-implementation-dlx/). Backtracking is a brute force approach. It is an ordinary recursive way, takes a lot of time and memory, and can be prevented by anti-brute-force sudoku. Dancing Links is a recursive, nondeterministic, depth-first, backtracking algorithm that finds all solutions to the exact cover problem.
@@ -90,12 +91,12 @@ def is_in_col(board, col, num):
     for j in range (SIZE):
         if (board[j][col] == num):
             return True
-    return false
+    return False
 
 def is_in_box(board, row, col, num):
-    bowRow = row - row % 3
+    boxRow = row - row % 3
     boxCol = col - col % 3
-    for i in range (bowRow, boxRow + 3):
+    for i in range (boxRow, boxRow + 3):
         for j in range (boxCol, boxCol + 3):
             if (board[i][j] == num):
                 return True
@@ -106,7 +107,7 @@ def is_satisfied(board, row, col, num):
 
 def sudoku_solved(board):
     for row in range (SIZE):
-        for col in range (SIZE:
+        for col in range (SIZE):
             if board[row][col] == EMPTY_CELL:
                 for num in range (1, SIZE + 1):
                     if is_satisfied(board, row, col, num):
