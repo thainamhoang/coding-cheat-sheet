@@ -5,6 +5,7 @@ Quick Sort is a [Divide and Conquer](/algorithms/divide_and_conquer.md) algorith
 * Last element as pivot
 * Middle element as pivot
 * Random element as pivot
+
 These approachs will use first and random elements as pivot. 
 
 ## Time Complexity
