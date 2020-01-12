@@ -1,10 +1,10 @@
 # Quick Sort
 
 Quick Sort is a [Divide and Conquer](/algorithms/divide_and_conquer.md) algorithm working by picking an element in the array as 'pivot' and partition the array around the pivot. There are many ways to pick a pivot, including:
-    * First element as pivot
-    * Last element as pivot
-    * Middle element as pivot
-    * Random element as pivot
+....* First element as pivot
+....* Last element as pivot
+....* Middle element as pivot
+....* Random element as pivot
 These approachs will use first and random elements as pivot. 
 
 ## Time Complexity
